@@ -1,0 +1,11 @@
+#input
+#output
+    Jose was added
+    Juan was added
+    Maria was added
+    Raul was not added
+    Tong was not added
+    Rosa was added
+    Jose Rosa Maria Juan
+    false
+#endtest
