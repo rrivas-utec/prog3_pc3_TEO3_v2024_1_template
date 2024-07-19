@@ -39,7 +39,7 @@ template
   <
     typename T, 
     template<typename...> class Container = std::initializer_list, 
-    typename Operation = function<T(T)>
+    typename Operation = std::function<T(T)>
   >
 int find_shortest_distance(T a, T b, const Container<Operation>& operations);
 ```
